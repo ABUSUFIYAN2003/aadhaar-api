@@ -1,0 +1,84 @@
+/* AadharValidator.css */
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form styles */
+  .aadhar-form {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Title styles */
+  .aadhar-form-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input styles */
+  .aadhar-input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input styles */
+.aadhar-input-group {
+    display: flex;
+    justify-content: space-between; /* This creates space between the buttons */
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .aadhar-button {
+    padding: 10px 30px; /* You can adjust the padding to control the button size */
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    
+  }
+  
+  
+  .aadhar-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error and Result styles */
+  .aadhar-error {
+    color: #ff0000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .aadhar-result {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .aadhar-valid {
+    color: #4caf50;
+  }
+  
+  .aadhar-invalid {
+    color: #f44336;
+  }
+  
